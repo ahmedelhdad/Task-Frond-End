@@ -1,4 +1,12 @@
 import React from "react";
+import logo from './props/Logo.png'
+import toggle from './props/tooglr.png'
+import ImageOne from './props/Customer Engagement.png'
+import ImageTwo from './props/Actionable Insights.png'
+import ImageThree from './props/Employees Productivity.png'
+import ImageFour from './props/Operations Excellence.png'
+import iconeOne from './props/Group 45.png'
+import iconeTwo from './props/Group 44.png'
 
 const Landing = () => {
   return (
@@ -6,10 +14,10 @@ const Landing = () => {
       <div className="container ">
         <div className="title d-flex justify-content-between py-2">
           <h1 style={{ color: "#0097C2" }}>
-            <img src="/Logo.png" alt="" className="w-100" />
+            <img src={logo} alt="logo" className="w-100" />
           </h1>
           <div>
-            <img src="Group 87.png" alt="" style={{ background: "" }} />
+            <img src={toggle} alt="toggle" style={{ background: "" }} />
           </div>
         </div>
 
@@ -17,9 +25,10 @@ const Landing = () => {
           <div className="col-md-6 col-lg-3 border-x-2 mb-3">
             <div className="card">
               <img
-                src="/Customer Engagement.png"
+                src={ImageOne}
                 alt=""
                 style={{ height: "150px" }}
+                className='p-3'
               />
               <div
                 className="card-body  rounded-4 text-white d-flex flex-column  justify-content-between "
@@ -32,8 +41,8 @@ const Landing = () => {
                 <div className="d-flex align-items-center justify-content-between ">
                   <h6>100 DTSU*</h6>
                   <div className="d-flex gap-2">
-                    <img src="/Group 45.png" alt="" />
-                    <img src="/Group 44.png" alt="" />
+                    <img src={iconeOne} alt="" />
+                    <img src={iconeTwo} alt="" />
                   </div>
                 </div>
               </div>
@@ -42,7 +51,8 @@ const Landing = () => {
           <div className="col-md-6 col-lg-3 mb-2">
             <div className="card">
               <img
-                src="/Actionable Insights.png"
+                src={ImageTwo}
+                className='p-3'
                 alt=""
                 style={{ height: "150px" }}
               />
@@ -55,8 +65,8 @@ const Landing = () => {
                 <div className="d-flex align-items-center justify-content-between ">
                   <h6>100 DTSU*</h6>
                   <div className="d-flex gap-2">
-                    <img src="/Group 45.png" alt="" />
-                    <img src="/Group 44.png" alt="" />
+                  <img src={iconeOne} alt="" />
+                  <img src={iconeTwo} alt="" />
                   </div>
                 </div>
               </div>
@@ -65,7 +75,8 @@ const Landing = () => {
           <div className="col-md-6 col-lg-3 mb-2">
             <div className="card">
               <img
-                src="/Employees Productivity.png"
+                src={ImageThree}
+                className='p-3'
                 alt=""
                 style={{ height: "150px" }}
               />
@@ -80,8 +91,8 @@ const Landing = () => {
                 <div className="d-flex align-items-center justify-content-between ">
                   <h6>100 DTSU*</h6>
                   <div className="d-flex gap-2">
-                    <img src="/Group 45.png" alt="" />
-                    <img src="/Group 44.png" alt="" />
+                  <img src={iconeOne} alt="" />
+                  <img src={iconeTwo} alt="" />
                   </div>
                 </div>
               </div>
@@ -90,7 +101,8 @@ const Landing = () => {
           <div className="col-md-6 col-lg-3 mb-2">
             <div className="card">
               <img
-                src="/Operations Excellence.png"
+                src={ImageFour}
+                className='p-3'
                 alt=""
                 style={{ height: "150px" }}
               />
@@ -103,8 +115,8 @@ const Landing = () => {
                 <div className="d-flex align-items-center justify-content-between ">
                   <h6>100 DTSU*</h6>
                   <div className="d-flex gap-2">
-                    <img src="/Group 45.png" alt="" />
-                    <img src="/Group 44.png" alt="" />
+                  <img src={iconeOne} alt="" />
+                  <img src={iconeTwo} alt="" />
                   </div>
                 </div>
               </div>

@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import ImageCart  from './props/Group 100.png'
 
 const NotCart = () => {
     const [show,setShow] = useState(true)
@@ -18,7 +19,7 @@ const NotCart = () => {
         </div>
 
         <div className="foundeCart">
-            <img src="/Group 100.png" alt="" className="w-50" />
+            <img src={ImageCart} alt="" className="w-50" />
             <h3 style={{color:'#00244D'}}>Your run cart is empty!</h3>
             <h5 style={{color:'#637182'}}>start add your requests here            </h5>
         </div>

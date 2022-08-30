@@ -1,6 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import { useSelector } from "react-redux";
-
+import Iamge from './props/Group 104.png'
+import iconOne from './props/Polygon 1.png'
+import iconTwo from './props/Polygon 2.png'
+import git from './props/gift-box.png'
+import info from './props/info-circle.png'
+import ImageCart  from './props/Group 100.png'
 const Cart = () => {
   const { cart } = useSelector((state) => state.user);
   const [show,setShow] = useState(true)
@@ -22,7 +27,7 @@ const Cart = () => {
         </div>
 
         <div className="foundeCart">
-            <img src="/Group 100.png" alt="" className="w-50" />
+            <img src={ImageCart} alt="" className="w-50" />
             <h3 style={{color:'#00244D'}}>Your run cart is empty!</h3>
             <h5 style={{color:'#637182'}}>start add your requests here            </h5>
         </div>
@@ -56,7 +61,7 @@ const Cart = () => {
 
         <div className="d-flex justify-content-between p-3  border-bottom">
           <div className="d-flex gap-3">
-            <img src="/Group 104.png" alt="" />
+            <img src={Iamge} alt="" />
             <div>
               <h5 style={{ color: "#00244D" }}>Smart Checklist</h5>
               <span style={{ color: "#637182" }}>
@@ -68,8 +73,8 @@ const Cart = () => {
             <div className="d-flex justify-content-between align-items-center gap-2 border rounded-4  px-3">
               <h6>2</h6>
               <div className="w-25">
-                <img src="/Polygon 1.png" alt="" />
-                <img src="/Polygon 2.png" alt="" />
+              <img src={iconOne} alt="" />
+              <img src={iconTwo} alt="" />
               </div>
             </div>
             <i
@@ -80,7 +85,7 @@ const Cart = () => {
         </div>
         <div className="d-flex justify-content-between p-3  border-bottom">
           <div className="d-flex gap-3">
-            <img src="/Group 104.png" alt="" />
+            <img src={Iamge} alt="" />
             <div>
               <h5 style={{ color: "#00244D" }}>Smart Checklist</h5>
               <span style={{ color: "#637182" }}>
@@ -92,8 +97,8 @@ const Cart = () => {
             <div className="d-flex justify-content-between align-items-center gap-2 border rounded-4  px-3">
               <h6>2</h6>
               <div className="w-25">
-                <img src="/Polygon 1.png" alt="" />
-                <img src="/Polygon 2.png" alt="" />
+                <img src={iconOne} alt="" />
+                <img src={iconTwo} alt="" />
               </div>
             </div>
             <i
@@ -134,13 +139,13 @@ const Cart = () => {
           <span style={{ color: "#00244D" }}>
             Your have made a great chooseLet's Run and be ready for a surprise
           </span>
-          <img src="/gift-box.png" alt="" />
+          <img src={git} alt="" />
         </div>
         <div
           style={{ background: "#ECF6FE" }}
           className="w-75 mx-auto mt-3 p-2 text-center"
         >
-          <img src="/info-circle.png" alt="" className="m-2" />
+          <img src={info} alt="" className="m-2" />
           <span style={{ color: "#00244D" }}>
             Some requests can take a week or moreto be delivered{" "}
           </span>

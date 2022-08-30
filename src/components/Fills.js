@@ -1,5 +1,10 @@
 import React, {useState } from "react";
 import { useSelector } from "react-redux";
+import Iamge from './props/Group 104.png'
+import iconOne from './props/Group 120.png'
+import iconTwo from './props/Group 121.png'
+import iconThree from './props/Group 125.png'
+import info from './props/info-circle.png'
 
 const Fills = () => {
   const [show, setShow] = useState(true);
@@ -34,14 +39,14 @@ const Fills = () => {
 
         <div className="d-flex justify-content-between p-3  border-bottom">
           <div className="d-flex gap-3">
-            <img src="/Group 104.png" alt="" />
+            <img src={Iamge} alt="" />
             <div>
               <h5 style={{ color: "#00244D" }}>Units Under Processing</h5>
               <span style={{ color: "#637182" }}>12.00 DTSUs</span>
             </div>
           </div>
           <div className="d-flex gap-3 align-items-center justify-content-between gap-4 ">
-            <img src="/Group 120.png" alt="" />
+            <img src={iconOne} alt="" />
             <i
               className="fa-solid fa-cloud-arrow-down fs-3"
               style={{ color: "#0097C2" }}
@@ -50,14 +55,14 @@ const Fills = () => {
         </div>
         <div className="d-flex justify-content-between p-3  border-bottom">
           <div className="d-flex gap-3">
-            <img src="/Group 104.png" alt="" />
+            <img src={Iamge} alt="" />
             <div>
               <h5 style={{ color: "#00244D" }}>Units Under Processing</h5>
               <span style={{ color: "#637182" }}>12.00 DTSUs</span>
             </div>
           </div>
           <div className="d-flex gap-3 align-items-center justify-content-between gap-4 ">
-            <img src="/Group 121.png" alt="" />
+            <img src={iconTwo} alt="" />
             <i
               className="fa-solid fa-cloud-arrow-down fs-3"
               style={{ color: "#0097C2" }}
@@ -66,14 +71,14 @@ const Fills = () => {
         </div>
         <div className="d-flex justify-content-between p-3  border-bottom">
           <div className="d-flex gap-3">
-            <img src="/Group 104.png" alt="" />
+            <img src={Iamge} alt="" />
             <div>
               <h5 style={{ color: "#00244D" }}>Units Under Processing</h5>
               <span style={{ color: "#637182" }}>12.00 DTSUs</span>
             </div>
           </div>
           <div className="d-flex gap-3 align-items-center justify-content-between gap-4 ">
-            <img src="/Group 125.png" alt="" />
+            <img src={iconThree} alt="" />
             <i
               className="fa-solid fa-cloud-arrow-down fs-3"
               style={{ color: "#0097C2" }}
@@ -114,7 +119,7 @@ const Fills = () => {
           style={{ background: "#ECF6FE" }}
           className="w-75 mx-auto mt-3 p-2 text-center"
         >
-          <img src="/info-circle.png" alt="" className="m-2" />
+          <img src={info} alt="" className="m-2" />
           <span style={{ color: "#00244D" }}>
             Some requests can take a week or moreto be delivered{" "}
           </span>

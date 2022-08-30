@@ -1,4 +1,9 @@
 import React from "react";
+import imageONe from '../components/props/Image 18.png'
+import imageTWO from '../components/props/Image 17.png'
+import imageTree from '../components/props/Image 16.png'
+import imageFour from '../components/props/Image 15.png'
+import iconFills from  './props/fill.png'
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 const Navbar = () => {
@@ -19,10 +24,10 @@ const Navbar = () => {
       </div>
       <div className=" middle d-flex align-items-center gap-3 ">
         <div className="image  position-relative">
-          <img src="Image 18.png" alt="" className="position-absolute " />
-          <img src="Image 17.png" alt="" className="position-absolute" />
-          <img src="Image 16.png" alt="" className="position-absolute" />
-          <img src="Image 15.png" alt="" className="position-absolute" />
+          <img src={imageONe} alt="" className="position-absolute " />
+          <img src={imageTWO} alt="" className="position-absolute" />
+          <img src={imageTree} alt="" className="position-absolute" />
+          <img src={imageFour} alt="" className="position-absolute" />
           <div className="cricle"></div>
         </div>
         <div>
@@ -41,7 +46,7 @@ const Navbar = () => {
         <Link to="/fill">
           <div>
             <span>{fill}</span>
-            <img src="/fill.png" alt="" />
+            <img src={iconFills} alt="icon" />
           </div>
         </Link>
       </div>
