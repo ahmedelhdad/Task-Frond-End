@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/Task-Frond-End/static/css/main.caeb9df3.css",
-    "main.js": "/Task-Frond-End/static/js/main.8497acc9.js",
+    "main.js": "/Task-Frond-End/static/js/main.04b9df5f.js",
+    "static/media/Actionable Insights.png": "/Task-Frond-End/static/media/Actionable Insights.52659dad56a232056128.png",
+    "static/media/Employees Productivity.png": "/Task-Frond-End/static/media/Employees Productivity.3f283b0d274b9876e153.png",
+    "static/media/Operations Excellence.png": "/Task-Frond-End/static/media/Operations Excellence.1a3da3b53c2d73616f88.png",
     "index.html": "/Task-Frond-End/index.html",
     "main.caeb9df3.css.map": "/Task-Frond-End/static/css/main.caeb9df3.css.map",
-    "main.8497acc9.js.map": "/Task-Frond-End/static/js/main.8497acc9.js.map"
+    "main.04b9df5f.js.map": "/Task-Frond-End/static/js/main.04b9df5f.js.map"
   },
   "entrypoints": [
     "static/css/main.caeb9df3.css",
-    "static/js/main.8497acc9.js"
+    "static/js/main.04b9df5f.js"
   ]
 }
